@@ -1,0 +1,83 @@
+/* Gerneral Style */
+body{
+    margin: 0;
+    padding: 150px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.resume-container{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Life section Styling */
+.left-section{
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid orange;
+    background-color: rgb(70, 65, 65);
+    color: white;
+}
+
+.profile-picture{
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 5px solid orange;
+    color: white;
+}
+
+h1{
+    margin:  10px 0;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+h3{
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px  rgb(224, 149, 9); 
+    color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul{
+    list-style-type: fill round;
+    margin: 10px 0;
+    padding: 10;
+}
+
+ul li{
+    margin: 5px 0;
+}
+
+/* <!-- Right Section Styling --> */
+.right-section{
+    width: 65%;
+    padding: 20px;
+}
+
+button{
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+button:hover{
+    background-color: brown;
+}
